@@ -1,24 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import Model from "./components/Model"
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Container from '@material-ui/core/Container';
+import { Typography } from '@material-ui/core';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Typography component="div" style={{ backgroundColor: 'purple', height: '100vh' }} >
+    <CssBaseline />
+    <Container maxWidth="sm">
+    
+
+      <h1>Colearners Education and Research Institute</h1>
+      <h2>3D CUBE MODEL REPRESENTATION IN WIREFRAME</h2>
+
+<Model/>
+
+<h3 className="h3"> This is an small and first example of making interactive 3d Model<br/>
+we can pan zoom and rotate the cube</h3>
+<h4>The Following Tools has been used</h4>
+<ol className="ol">
+  <li>React JS for Front End</li>
+  <li>React three library for 3d</li> 
+  <li>Material ui</li>
+
+</ol>
+
+
+    </Container>
+    </Typography>
   );
 }
 
