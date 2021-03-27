@@ -7,7 +7,7 @@ import { Typography } from '@material-ui/core';
 
 function App() {
   return (
-    <Typography component="div" style={{ backgroundColor: 'purple', height: '100vh' }} >
+    <Typography component="div" style={{ backgroundColor: 'purple', height: '115vh' }} >
     <CssBaseline />
     <Container maxWidth="sm">
     
